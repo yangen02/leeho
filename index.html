@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            background-color: burlywood;
+        }
+        .none{
+            list-style-type: none;
+        }
+        td{
+            width: 150px;
+            height: 40px;
+            border: 1px solid black;
+  
+        }
+        .red{
+            color: red;
+        }
+        .center{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <p>待辦事項</p>
+    <ol>
+        <li>幫Mary洗澡</li>
+        <li>買家用品</li>
+        <li>幫摩托車換機油</li>
+        <li>背5個英文單字</li>
+        <li>練習寫程式</li>
+    </ol>
+
+    <p>要背的英文單字</p>
+    <ul>
+        <li class="none">apple 蘋果</li>
+        <li class="none">banana 香蕉</li>
+        <li class="none">cat 貓</li>
+        <li class="none">dog 狗</li>
+        <li class="none">email 電子郵件</li>
+    </ul>
+    <p>今天要買的東西的地點與價格</p>
+    <table>
+        <tr>
+            <td>品項</td>
+            <td class="center">價格</td>
+            <td>地點</td>
+        </tr>
+        <tr>
+            <td>雞肉</td>
+            <td class="center red">400</td>
+            <td>一大早黃昏市場</td>
+        </tr>
+        <tr>
+            <td>狗飼料</td>
+            <td class="center">600</td>
+            <td>狗中狗</td>
+        </tr>
+        <tr>
+            <td>汽水</td>
+            <td class="center">34</td>
+            <td rowspan="3">全年福利站</td>
+        </tr>
+
+        <tr>
+            <td>衛生紙</td>
+            <td class="center">168</td>
+            
+        </tr>
+        <tr>
+            <td >雞蛋</td>
+            <td class="center">55</td>
+            
+        </tr>
+    </table>
+
+</body>
+</html>
